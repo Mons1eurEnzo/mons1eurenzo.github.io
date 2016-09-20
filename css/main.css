@@ -92,8 +92,7 @@ svg {
   z-index: 100;
   border: none;
   right: 20px;
-  top: 20px;
-  display: table-row; }
+  top: 20px; }
   .toggle-mnu span {
     display: block; }
 
