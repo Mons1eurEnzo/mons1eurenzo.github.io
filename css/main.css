@@ -1,3 +1,7 @@
+html { 
+  overflow-x: hidden;
+  overflow-y: hidden;}
+
 body {
   font-family: "Raleway", sans-serif;
   font-weight: normal;
