@@ -146,6 +146,16 @@
     <script src="js/common.js"></script>
     <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
     <!-- Google Analytics counter --><!-- /Google Analytics counter -->
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<script type="text/javascript">
+function OffScroll () {
+var winScrollTop = $(window).scrollTop();
+$(window).bind('scroll',function () {
+  $(window).scrollTop(winScrollTop);
+});}
+
+OffScroll ();  //Запустили отмену прокрутки
+
+//$(window).unbind('scroll'); //Выключить отмену прокрутки
+</script>
   </body>
   </html>
