@@ -1,10 +1,12 @@
+html { 
+  overflow-x: hidden; }
+
 body {
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 14px;
   min-width: 320px;
   line-height: 1.6;
-  overflow-x: hidden;
   -webkit-font-smoothing: antialised; }
 
 body input:focus:required:invalid,
