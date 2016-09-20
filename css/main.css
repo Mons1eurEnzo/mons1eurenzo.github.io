@@ -85,8 +85,6 @@ svg {
   position: relative; }
 
 .toggle-mnu {
-  overflow-x: auto;
-  overflow-y: hidden;
   width: 60px;
   height: 60px;
   float: right;
